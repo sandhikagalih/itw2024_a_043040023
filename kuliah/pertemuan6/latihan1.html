@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block & Inline</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+      h1 {
+        background-color: salmon;
+      }
+      h2 {
+        background-color: limegreen;
+      }
+      a {
+        background-color: royalblue;
+      }
+      .p2 {
+        color: blue;
+      }
+      p span {
+        background-color: lightblue;
+      }
+
+      h2 span {
+        background-color: salmon;
+      }
+
+      .nav {
+        background-color: lightblue;
+        text-align: center;
+      }
+
+      a {
+        display: inline-block;
+        width: 80px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        background-color: black;
+        color: white;
+      }
+
+      a:active {
+        background-color: red;
+        color: white;
+      }
+
+      .p2::first-letter {
+        font-size: 30px;
+      }
+      .kotak {
+        background-color: royalblue;
+        width: 100px;
+        height: 100px;
+      }
+
+      .p3 {
+        background-color: salmon;
+        width: 200px;
+        height: 250px;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <h2>IT<span>W</span></h2>
+
+    <div class="nav">
+      <a href="#">Beranda</a>
+      <a href="#">Layanan</a>
+      <a href="#">Tentang</a>
+      <a href="#">Kontak</a>
+    </div>
+
+    <p style="background-color: purple">sandhika</p>
+    <p class="p2">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt
+      accusamus in <span>soluta</span> id sit at, vitae, ipsam ab natus
+      excepturi consequuntur architecto, sequi corporis! Totam eum voluptates
+      magni recusandae.
+    </p>
+
+    <hr />
+
+    <h3 class="kotak">Kotak</h3>
+    <p class="p3">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima optio id,
+      corrupti eaque dolorum aut nam consectetur adipisci esse totam. Provident
+      molestias voluptatibus dolore, repellendus sint modi nesciunt praesentium
+      maxime nisi adipisci. Deleniti pariatur porro aspernatur, suscipit
+      necessitatibus harum totam. Magni, repellendus nesciunt saepe voluptatum
+      debitis, eaque quos est eveniet neque suscipit hic praesentium sit.
+      Molestiae dignissimos quod magni. Odit porro aspernatur officiis
+      reiciendis modi rem laudantium nulla, repellat architecto sunt officia
+      quisquam facilis nostrum quod, fugit quidem ad asperiores nisi nesciunt
+      vero expedita impedit sint. Suscipit distinctio ducimus voluptatum
+      deleniti, aut sapiente, eveniet porro quo dignissimos dicta obcaecati
+      mollitia.
+    </p>
+  </body>
+</html>
